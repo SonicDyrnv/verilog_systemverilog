@@ -43,7 +43,7 @@ I have made this one for learning sysverilog verification.
 I learnt many things while making this, 
 some of those are, 
 -> I gave one extra clk delay in monitor class task, since it was sampeling before clk 2ns, which was sampling
-```
     input even before initial and so test cases were getting failed.
 -> I learnt about encountering delays in verification, I gave one clk delay(by storing two different times outputs)
     for  comparing in scoreboard, In reference model I did this change, it was something very new which blowed my mind.
+```
